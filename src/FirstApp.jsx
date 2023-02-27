@@ -1,13 +1,6 @@
 import PropTypes from 'prop-types';
 
 export const FirstApp = ({ title, subTitle, name}) => {
-    /*return (
-        <Fragment>
-            <h1>Mi primer componente</h1>
-            <p>Me llamo Sergio</p>
-        </Fragment>
-    );*/   
-
     return (
         <>
             <h1>{ title }</h1>
@@ -24,7 +17,7 @@ FirstApp.propTypes = {
 }
 
 FirstApp.defaultProps = {
-    title: 'No hay título',
+    //title: 'No hay título',
     subTitle: 'No  hay subtitulo',
     name: "Sergio Martín"
 }
